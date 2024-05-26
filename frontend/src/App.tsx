@@ -84,7 +84,7 @@ function App() {
   };
 
   return (
-      /*<BackgroundGradientAnimation>*/
+      <BackgroundGradientAnimation>
           <div className="absolute inset-0 z-50  flex flex-row w-screen bg-[#EBE9E1] bg-opacity-30">
 
               <div>
@@ -196,7 +196,7 @@ function App() {
               </div>
 
           </div>
-      //</BackgroundGradientAnimation>
+      </BackgroundGradientAnimation>
 
 
   );
